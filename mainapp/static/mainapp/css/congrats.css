@@ -1,0 +1,153 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2,h3 {
+  font-family: courier, verdana;
+  color: white;
+}
+h1{
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 25px;
+}
+h3{
+  font-size: 13px;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #5BF3E5;
+  font-family: montserrat, arial,verdana;
+  font-size: 22px;
+  line-height: 24px;
+}
+#footer{
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 70%;
+  z-index: 0;
+  background-color: #36E9D9;
+  }/*
+.card{
+  top: 26%;
+  z-index: 10;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  width:30%;
+  left: 37%;
+  height: 60vh;
+  border-radius: 15px;
+}
+
+.top{
+  width: 100%;
+  height: 60%;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  background: -webkit-linear-gradient(left top, #4B00AF , #9300C5);
+  background: -o-linear-gradient(bottom right, #4B00AF, #9300C5);
+  background: -moz-linear-gradient(bottom right, #4B00AF, #9300C5);
+  background: linear-gradient(to bottom right, #4B00AF , #9300C5);
+}
+
+.check{
+  padding: 10px;
+  font-family: courier, verdana;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #6700B8;
+  left: 33%;
+  width: auto;
+  height: 25px;
+  color: #FFCF00;
+  position: absolute;
+  border: 2px solid #DAAB1A;
+}
+.bottom{
+  position: absolute;
+  height: 40%;
+  width: 100%;
+  top: 50%;
+  background-color: #fff;
+}*/
+/*
+.bottom a{
+  font-family: courier, verdana;
+  position: absolute;
+  left: 33%;
+  top: 35%;
+  font-size: 25px;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 2px solid #DAAB1A;
+  text-decoration: none;
+  color: #FFCF00;
+  padding: 15px;
+}
+.bottom a:hover{
+  background-color:#9934CA;
+}*/
+
+#wrapper{
+  height: 100vh;
+  width: 100vw;
+  /*background: #fff;*/
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/*#wrapper *{
+  border: 1px solid #000;
+}*/
+
+#wrapper .main{
+  width: 320px;
+  height: 415px;
+  background: url('../img/congratulations.png') 0 0 no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#wrapper .box{
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+#wrapper .box:nth-of-type(1){
+  top: 170px;
+  left: 90px;
+  line-height: 60px;
+  margin-top: 5px;
+  font-size: 20px;
+  color: #dfb220;
+}
+
+#wrapper .box:nth-of-type(2){
+  top: 330px;
+  left: 90px;
+  background: #f00;
+  color: #fff;
+  line-height: 60px;
+}
+
+#wrapper .box:nth-of-type(2) a{
+  text-decoration: none;
+  height: 60px;
+  width: 150px;
+  color: #fff;
+}
