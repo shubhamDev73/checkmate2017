@@ -2,4 +2,4 @@
 
 Made by BITS ACM
 
-[Original repo](https://github.com.bitsacm/Checkmate2017)
+[Original repo](https://github.com/bitsacm/Checkmate2017)
