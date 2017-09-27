@@ -1,7 +1,5 @@
 *.pyc
-/checkmate2017/settings.py
 /checkmate2017/wsgi.py
 *~
 __pycache__
-/static
 .idea
